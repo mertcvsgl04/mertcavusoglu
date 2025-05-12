@@ -1,0 +1,170 @@
+.navbar {
+  
+    background-color: #333;
+  padding: 10px 0;
+  text-align: center;
+  
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ffcc00; /* Hover rengi - sarı */
+}  
+
+body {
+  background-color: #f4f4f4;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.tanitim-gorsel {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.tanitim-metin {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  margin-top: 50px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    margin-bottom: 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.card h2 {
+    color: #2c3e50;
+    margin-bottom: 8px;
+    font-size: 24px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 6px;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.zar-gorsel {
+      font-size: 80px;
+      margin-top: 20px;
+      transition: transform 0.2s;
+    }
+ 
+    .zar-gorsel.animate {
+      transform: rotate(20deg);
+    }
+
+    .zar-oyunu {
+      text-align: center;
+      margin-top: 50px;
+      font-family: 'Black Ops One', cursive;
+    }
+    
+    .zar-sonuc {
+      font-size: 24px;
+      margin-top: 20px;
+    }
+    
+    .zar-btn {
+      padding: 10px 20px;
+      font-size: 18px;
+      border: none;
+      background-color: black;
+      color: white;
+      cursor: pointer;
+      border-radius: 10px;
+      transition: background-color 0.3s;
+    }
+    
+    .zar-btn:hover {
+      background-color: #333;
+    }
+    
+    .zar-gorsel {
+      font-size: 80px;
+      margin-top: 20px;
+      transition: transform 0.2s;
+    }
+
+    .zar-kutu {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      border-radius: 15px;
+      width: 300px;
+      margin: 50px auto;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    }
+
+    .zar-kapsayici {
+      background: rgba(0, 0, 0, 0.4); 
+      padding: 30px;
+      border-radius: 20px;
+      width: 400px;
+      margin: 50px auto;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+      text-align: center;
+      font-family: 'Black Ops One', cursive;
+      backdrop-filter: blur(10px); 
+      -webkit-backdrop-filter: blur(10px); 
+      border: 1px solid rgba(255, 255, 255, 0.2); 
+    }
